@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/HwangWoong4708/my_bulletin_board_v2_server#readme",
   "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
     "express": "^4.17.1",
     "express-session": "^1.17.1",
     "mongoose": "^5.9.26",
