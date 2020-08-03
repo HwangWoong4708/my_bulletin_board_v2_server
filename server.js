@@ -29,7 +29,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use("/member", require("./routers/membersRouter"));
-
+app.use("/board", require("./routers/boardRouter"));
 app.listen(8080, () => {
   console.log("server listening...");
 });

@@ -118,4 +118,5 @@ router.get("/logout", (req, res) => {
     res.json({ message: true });
   });
 });
+
 module.exports = router;
